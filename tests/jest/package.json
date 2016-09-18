@@ -1,7 +1,7 @@
 {
-  "name": "scoffold-jest",
+  "name": "scaffold-jest",
   "version": "1.0.0",
-  "description": "scoffold for jest",
+  "description": "scaffold for jest",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/jest --coverage"

@@ -1,4 +1,4 @@
-## this is my scoffold for [jest](https://github.com/facebook/jest)
+## this is my scaffold for [jest](https://github.com/facebook/jest)
 
 ### running steps:
 1. npm install
