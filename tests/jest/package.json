@@ -1,0 +1,21 @@
+{
+  "name": "scoffold-jest",
+  "version": "1.0.0",
+  "description": "scoffold for jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest"
+  },
+  "keywords": [
+    "scoffold",
+    "karma"
+  ],
+  "author": "dane.ding <270422767@qq.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-jest": "^15.0.0",
+    "babel-polyfill": "^6.13.0",
+    "babel-preset-es2015": "^6.14.0",
+    "jest": "^15.1.1"
+  }
+}
