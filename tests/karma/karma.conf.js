@@ -41,8 +41,7 @@ module.exports = function(config) {
             exclude: /node_modules/,
             sourceMaps: false,
             query: {
-              cacheDirectory: true,
-              presets: ['es2015']
+              cacheDirectory: true
             }
           }
         ]
