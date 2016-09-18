@@ -29,7 +29,8 @@ module.exports = function(config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
-      'tests/**/*.spec.js': ['webpack']
+      'tests/**/*.spec.js': ['webpack'],
+      'src/**/*.js': ['coverage']
     },
 
     webpack: {
@@ -56,7 +57,7 @@ module.exports = function(config) {
     // test results reporter to use
     // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-    reporters: ['mocha'],
+    reporters: ['mocha', 'coverage'],
 
 
     // web server port
@@ -94,6 +95,11 @@ module.exports = function(config) {
         // change Karma's debug.html to the mocha web reporter
         reporter: 'html'
       }
+    },
+
+    coverageReporter: {
+      type : 'html',
+      dir : 'build/reports/coverage/'
     }
   });
 };
