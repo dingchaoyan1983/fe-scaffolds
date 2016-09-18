@@ -1,7 +1,7 @@
 {
-  "name": "scoffold-karma",
+  "name": "scaffold-karma",
   "version": "1.0.0",
-  "description": "scoffold for karma",
+  "description": "scaffold for karma",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/karma start"

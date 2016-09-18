@@ -1,4 +1,4 @@
-## this is my scoffold for [karma](http://karma-runner.github.io/1.0/index.html)
+## this is my scaffold for [karma](http://karma-runner.github.io/1.0/index.html)
 
 ### running steps:
 
