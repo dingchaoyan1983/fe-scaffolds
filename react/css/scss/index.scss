@@ -1,0 +1,9 @@
+@import '~node_modules/bootstrap/dist/css/bootstrap.css';
+$width: 100vw;
+$height: 100vh;
+
+#react-root {
+  display: flex;
+  width: $width;
+  height: $height;
+}
