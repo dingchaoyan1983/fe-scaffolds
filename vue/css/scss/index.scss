@@ -1,0 +1,32 @@
+@import '~node_modules/bootstrap/dist/css/bootstrap.css';
+$width: 100px;
+$height: 100px;
+
+@keyframes exampleIn {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+@keyframes exampleOut {
+    from {background-color: yellow;}
+    to {background-color: red;}
+}
+
+#react-root {
+  display: flex;
+  width: $width;
+  height: $height;
+  position: absolute;
+
+  &.animateUp {
+    animation-name: exampleIn;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+  }
+
+  &.animateDown {
+    animation-name: exampleOut;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+  }
+}
